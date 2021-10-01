@@ -135,8 +135,6 @@ func main() {
 	var staticFS,_ = fs.Sub(static, "static")
 
 	serviceVersion = c.MainVersion
-
-	unusedVariable := "test"
 	
 	// create a new handler
 	handler := HTTPHandler{}
